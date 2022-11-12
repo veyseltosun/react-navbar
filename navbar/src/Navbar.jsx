@@ -15,9 +15,9 @@ function Navbar() {
 
 
             </div>
-            {showLinks && (
+            
 
-            <div className='links-container show-container'>
+            <div className={`${showLinks ? "links-container show-container" : "links-container"}`}>
                 <ul className='links'>
                    {links.map((link)=>{
                     const{id, text, url} = link;
@@ -29,7 +29,7 @@ function Navbar() {
                    })}
                 </ul>
             </div>
-            )}
+           
             <ul className='social-icons'>
                 {social.map((item)=>{
                     const{id, url,icon} = item;
