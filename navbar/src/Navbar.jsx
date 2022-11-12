@@ -1,5 +1,8 @@
 import React from 'react'
-import {useEffect, useState} from "react";
+import {useEffect, useState, useRef} from "react";
+import{FaBars} from "react-icons/fa";
+import {links, social} from "./Data";
+import logo from "./logo.svg"
 
 function Navbar() {
   return (
