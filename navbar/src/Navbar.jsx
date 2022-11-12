@@ -23,6 +23,7 @@ function Navbar() {
         <div className='nav-center'>
             <div className='nav-header'>
                 <img src={logo} alt="logo"></img>
+                <h4>Veysel's Navbar &copy;</h4>
                 <button className="nav-toggle" onClick={() => setShowLinks(!showLinks)}><FaBars/></button>
 
 
