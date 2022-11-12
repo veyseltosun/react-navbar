@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div>
-      <h3>Navbar</h3>
+      <Navbar></Navbar>
     </div>
   )
 }
