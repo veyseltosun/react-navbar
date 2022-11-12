@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect, useState, useRef} from "react";
-import{FaBars} from "react-icons/fa";
+import{FaBars, FaFacebook, FaLinkedin, FaTwitter} from "react-icons/fa";
 import {links, social} from "./Data";
 import logo from "./logo.svg"
 
@@ -30,7 +30,25 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-            <ul className='social-icons'></ul>
+            <ul className='social-icons'>
+                <li>
+                    <a href='https://twitter.com'>
+                        <FaTwitter/>
+                    </a>
+                </li>
+            </ul>
+                <li>
+                    <a href='https://twitter.com'>
+                        <FaLinkedin/>
+                    </a>
+                </li>
+            </ul>
+                <li>
+                    <a href='https://twitter.com'>
+                        <FaFacebook/>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
   )
